@@ -15,3 +15,10 @@ npm i --force
 ```bash
  npx hardhat test test/MyPaymasterDeploy.test.ts --network vechain
 ```
+## 4. Add the paymaster address to your config
+
+## 5. Start the paymaster service (by default port 8546)
+
+```bash
+npx hardhat run scripts/startPaymaster.ts
+```
